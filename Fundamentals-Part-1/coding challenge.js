@@ -53,3 +53,11 @@ if (avgDolphinsB2 === avgKoalasB2 && avgDolphinsB2 > 100 && avgKoalasB2 > 100) {
 } else if (avgKoalasB2 > avgDolphinsB2 && avgKoalasB2 > 100) {
   console.log(`Koalas are Winners`);
 }
+
+//coding challenge #4
+let tip;
+let bill = 275; //40 , 430
+bill > 50 && bill < 300 ? (tip = (bill / 100) * 15) : (tip = (bill / 100) * 20);
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the  total value ${bill + tip}`
+);
