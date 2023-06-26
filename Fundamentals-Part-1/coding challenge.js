@@ -16,3 +16,40 @@ if (markBMI > johnBMI) {
 } else {
   console.log(`John's BMI ${johnBMI}) is higher than Mark's! (${markBMI})`);
 }
+
+//coding challenge #3
+//Data 1
+let avgDolphins1 = (96 + 108 + 89) / 3;
+let avgKoalas1 = (88 + 91 + 110) / 3;
+
+if (avgDolphins1 === avgKoalas1) {
+  console.log(`Its a Draw`);
+} else if (avgDolphins1 > avgKoalas1) {
+  console.log(`Dolphins are Winners`);
+} else {
+  console.log(`Koalas are Winners`);
+}
+
+//Data Bonus 1
+let avgDolphinsB1 = (97 + 112 + 101) / 3;
+let avgKoalasB1 = (109 + 95 + 123) / 3;
+
+if (avgDolphinsB1 === avgKoalasB1) {
+  console.log(`Its a Draw`);
+} else if (avgDolphinsB1 > avgKoalasB1 && avgDolphinsB1 > 100) {
+  console.log(`Dolphins are Winners`);
+} else if (avgKoalasB1 > avgDolphinsB1 && avgKoalasB1 > 100) {
+  console.log(`Koalas are Winners`);
+}
+
+//Data Bonus 2
+let avgDolphinsB2 = (97 + 112 + 101) / 3;
+let avgKoalasB2 = (109 + 95 + 106) / 3;
+
+if (avgDolphinsB2 === avgKoalasB2 && avgDolphinsB2 > 100 && avgKoalasB2 > 100) {
+  console.log(`Its a Draw`);
+} else if (avgDolphinsB2 > avgKoalasB2 && avgDolphinsB2 > 100) {
+  console.log(`Dolphins are Winners`);
+} else if (avgKoalasB2 > avgDolphinsB2 && avgKoalasB2 > 100) {
+  console.log(`Koalas are Winners`);
+}
