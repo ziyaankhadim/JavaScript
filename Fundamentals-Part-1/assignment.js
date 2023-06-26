@@ -8,3 +8,6 @@ console.log(country, continent, population);
 let isIsland = false;
 let language;
 console.log(isIsland, population, country, language);
+
+// let, const, and var
+language = "URDU";
