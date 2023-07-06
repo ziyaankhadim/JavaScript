@@ -77,3 +77,15 @@ if (Mark.BMI > John.BMI) {
     `${John.fName}'s (${John.BMI}) is higher than ${Mark.fName}'s BMI (${Mark.BMI})`
   );
 }
+
+//coding challenge #4
+const bills2 = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
+const tips2 = [];
+const total2 = [];
+
+for (let index = 0; index < bills2.length; index++) {
+  tips2.push(calcTip(bills2[index]));
+  total2.push(calcTip(bills2[index]) + bills2[index]);
+}
+console.log(tips2);
+console.log(total2);
